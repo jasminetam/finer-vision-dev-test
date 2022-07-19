@@ -40,7 +40,7 @@ const InputFormOne: React.FC<Props> = ({
   };
 
   return (
-    <Form>
+    <Form data-test="component-InputFormOne">
       <InputFormDiv>
         <InputFormatDiv>
           <SingleInputDiv>

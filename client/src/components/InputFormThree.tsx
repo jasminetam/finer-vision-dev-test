@@ -25,7 +25,7 @@ const InputFormThree: React.FC<Props> = ({ data, setData, handleSend }) => {
   };
 console.log(data)
   return (
-    <Form>
+    <Form data-test="component-InputFormThree">
       <InputFormDiv>
         <InputFormatDiv>
           <SingleInputDiv style={{ width: '400px' }}>

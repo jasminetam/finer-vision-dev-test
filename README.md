@@ -24,12 +24,3 @@ $ npm install
 $ npm start
 ```
 
-Run the test
-```
-$ cd client
-$ npm install
-$ npm start
-```
-
-
-To test the database, you may install postman

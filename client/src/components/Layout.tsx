@@ -3,7 +3,7 @@ import { BackgroundDiv, FlexWrapper, FormArea } from '../style/style';
 
 function Layout({ children }: any) {
   return (
-    <BackgroundDiv>
+    <BackgroundDiv data-test="component-Layout">
       <FlexWrapper>
         <FormArea>
           {children}

@@ -46,7 +46,7 @@ const InputFormTwo: React.FC<Props> = ({
   };
 
   return (
-    <Form>
+    <Form data-test="component-InputFormTwo">
       <InputFormDiv>
         <InputFormatDiv>
           <SingleInputDiv>
