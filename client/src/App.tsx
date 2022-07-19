@@ -32,7 +32,7 @@ function App() {
 
     const dateofbirth = `${data.day}-${data.month}-${data.year}`;
 
-    const submit = await axios.post('http://localhost:3000/users', {
+    const submit = await axios.post('http://localhost:3001/users', {
       first_name: data.first_name,
       email: data.email,
       surname: data.surname,
